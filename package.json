@@ -4,6 +4,7 @@
   "description": "Tailify's very own opinionated ESLint configuration",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/tailify/eslint-config",
@@ -12,5 +13,15 @@
     "eslint-config"
   ],
   "bugs": "https://github.com/tailify/eslint-config/issues",
-  "homepage": "https://github.com/tailify/eslint-config#readme"
+  "homepage": "https://github.com/tailify/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-plugin-node": "^6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
 }
