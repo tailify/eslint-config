@@ -8,7 +8,7 @@
     "pretest": "npm run lint",
     "test": "jest"
   },
-  "repository": "https://github.com/tailify/eslint-config",
+  "repository": "tailify/eslint-config",
   "keywords": [
     "eslint",
     "eslint-config"
