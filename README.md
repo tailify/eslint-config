@@ -1,6 +1,8 @@
 # eslint-config
 
 [![Build status][build-status-image]][build-status-url]
+[![Dependency status][dependency-status-image]][dependency-status-url]
+[![Version][version-image]][version-url]
 
 > Tailify's very own opinionated ESLint configuration.
 
@@ -24,3 +26,9 @@ module.exports = {
 
 [build-status-image]: https://api.travis-ci.org/tailify/eslint-config.svg?branch=master
 [build-status-url]: https://travis-ci.org/tailify/eslint-config
+
+[dependency-status-image]: https://david-dm.org/tailify/eslint-config/master.svg
+[dependency-status-url]: https://david-dm.org/tailify/eslint-config
+
+[version-image]: https://img.shields.io/npm/v/@tailify/eslint-config.svg
+[version-url]: https://www.npmjs.com/package/@tailify/eslint-config
