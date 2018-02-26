@@ -13,6 +13,7 @@
     "eslint",
     "eslint-config"
   ],
+  "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/eslint-config/issues",
   "homepage": "https://github.com/tailify/eslint-config#readme",
   "dependencies": {
