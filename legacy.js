@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  extends: 'airbnb',
+  extends: 'airbnb/legacy',
 };
