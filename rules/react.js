@@ -63,9 +63,6 @@ module.exports = {
     // prevent direct mutation of `this.state`
     'react/no-direct-mutation-state': 'error',
 
-    // prevent usage of setState
-    'react/no-set-state': 'error',
-
     // enforce component methods order
     'react/sort-comp': ['error', {
       order: [
