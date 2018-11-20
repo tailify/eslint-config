@@ -10,10 +10,16 @@ cache:
 
 deploy:
   provider: npm
-  email: ${NPM_EMAIL}
-  api_key: ${NPM_TOKEN}
+  email: "${NPM_EMAIL}"
+  api_key: "${NPM_TOKEN}"
   on:
     branch: master
     node: 10
-    repo: ${TRAVIS_REPO_SLUG}
+    repo: "${TRAVIS_REPO_SLUG}"
     tags: true
+
+notifications:
+  slack:
+    on_success: always
+    rooms:
+      secure: j3OzMgZB2FdYzZC9+82B67CpuGOmI6PxzNgxJ0lrQ/t8SsVrjHaCzzQzUUHlVhVGfXfuiHBluEmK30b19uCPK0FldmFvHUAamNTdvR2USm9SoZyafhwkoG05b4G1ALpKE0x415LzhB7yrZiRAxjMwinkdsSjjNRHXao4cfTy6eTfeNkNrKfnUGQ1HqO8GVJA1IIeUZZrZomeU0I0Ih2f9Do4gQFJxYbhV9gdgVaN767f2jPQYd83m6LsVuunJBp85p3l/zLWdbNfYBwf2bnpIXUR6K1yrHySo5i2rSJVAa3/lVR58OBaKD3ZugzSWVlAgtMNrLtFnm0G/H4ca+87ZcZYZPoH0gniy0rxfJpjtLkQgGu6Gs7k+Oay5+yf3LD1FGfrMb8kBg+OBBfLg0ZzbRwgCrFOYCcyc0ieF/AQOwtJp7jmHxNfoLyjypzOKytV1wznCi1MJclbOejI5meao2bmKx8rZQvIspn9xgffo8waKmiziFJUiAObCdTxQirph3ur7A5Ke04ui2UgRHeCgNI8GDMeGyFT9OiyeFqyB0ls6Spk1Plb6pAoKBKoFVYT8kPsoVQEHQKLXOc0yw9t8Yx3bYYDS6mhULhjW1Y+OxcQN6AT7AcHrHwahZ4kpkwQu1ioDh7EUEKKsIj81bcSVE3DwUNiioXHHJBwk4Njz7Q=
