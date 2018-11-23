@@ -1,6 +1,6 @@
 {
   "name": "@tailify/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tailify's very own opinionated ESLint configuration",
   "main": "index.js",
   "files": [
