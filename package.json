@@ -2,11 +2,10 @@
   "name": "@tailify/eslint-config",
   "version": "1.0.1",
   "description": "Tailify's very own opinionated ESLint configuration",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "rules/*.js",
-    "base.js",
-    "index.js"
+    "lib/rules/*.js",
+    "lib/*.js"
   ],
   "scripts": {
     "lint": "eslint .",

@@ -3,13 +3,13 @@
 const eslint = require('eslint');
 
 it('should contain expected keys', () => {
-  const config = require('../base');
+  const config = require('../lib/base');
   expect(Object.keys(config)).toMatchSnapshot();
 });
 
 it('should not contain invalid rules', () => {
   const cli = new eslint.CLIEngine({
-    configFile: 'base.js',
+    configFile: './lib/base.js',
     useEslintrc: false,
   });
 
