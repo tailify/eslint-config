@@ -1,4 +1,4 @@
-# eslint-config
+# @tailify/eslint-config
 
 [![Build status][build-status-image]][build-status-url]
 [![Dependency status][dependency-status-image]][dependency-status-url]
@@ -24,7 +24,7 @@ module.exports = {
 
 *Note: We can omit the `/eslint-config` suffix since it is automatically assumed by ESLint.*
 
-[build-status-image]: https://api.travis-ci.org/tailify/eslint-config.svg?branch=master
+[build-status-image]: https://travis-ci.org/tailify/eslint-config.svg?branch=master
 [build-status-url]: https://travis-ci.org/tailify/eslint-config
 
 [dependency-status-image]: https://david-dm.org/tailify/eslint-config/master.svg
