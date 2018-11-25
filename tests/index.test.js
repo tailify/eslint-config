@@ -2,11 +2,6 @@
 
 const eslint = require('eslint');
 
-it('should contain expected keys', () => {
-  const config = require('../lib/index');
-  expect(Object.keys(config)).toMatchSnapshot();
-});
-
 it('should not contain invalid rules', () => {
   const cli = new eslint.CLIEngine({
     configFile: './lib/index.js',
