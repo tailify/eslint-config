@@ -9,7 +9,7 @@ it('should not contain invalid rules', () => {
   });
 
   const report = cli.executeOnText(
-    'module.exports = {};\n'
+    'module.exports = {};\n',
   );
 
   expect(report).toBeTruthy();

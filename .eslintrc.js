@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
+    'global-require': 'off',
     'indent': ['error', 2],
     'linebreak-style': 'error',
     'quote-props': ['error', 'consistent-as-needed'],
