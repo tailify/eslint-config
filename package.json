@@ -4,8 +4,7 @@
   "description": "Tailify's very own opinionated ESLint configuration",
   "main": "lib/index.js",
   "files": [
-    "lib/rules/*.js",
-    "lib/*.js"
+    "lib/"
   ],
   "scripts": {
     "lint": "eslint .",
