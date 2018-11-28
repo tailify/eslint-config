@@ -20,6 +20,7 @@
   "bugs": "https://github.com/tailify/eslint-config/issues",
   "homepage": "https://github.com/tailify/eslint-config#readme",
   "dependencies": {
+    "babel-eslint": "10.0.1",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jest": "22.1.0",
