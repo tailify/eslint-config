@@ -1,5 +1,7 @@
 # @tailify/eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tailify/eslint-config.svg)](https://greenkeeper.io/)
+
 [![Build status][build-status-image]][build-status-url]
 [![Dependency status][dependency-status-image]][dependency-status-url]
 [![Version][version-image]][version-url]
