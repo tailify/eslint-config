@@ -1,7 +1,6 @@
 # @tailify/eslint-config
 
 [![Build status][build-status-image]][build-status-url]
-[![Dependency status][dependency-status-image]][dependency-status-url]
 [![Greenkeeper][greenkeeper-image]][greenkeeper-url]
 [![Version][version-image]][version-url]
 
@@ -27,9 +26,6 @@ module.exports = {
 
 [build-status-image]: https://travis-ci.org/tailify/eslint-config.svg?branch=master
 [build-status-url]: https://travis-ci.org/tailify/eslint-config
-
-[dependency-status-image]: https://david-dm.org/tailify/eslint-config/master.svg
-[dependency-status-url]: https://david-dm.org/tailify/eslint-config
 
 [greenkeeper-image]: https://badges.greenkeeper.io/tailify/eslint-config.svg
 [greenkeeper-url]: https://greenkeeper.io
