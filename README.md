@@ -2,6 +2,7 @@
 
 [![Build status][build-status-image]][build-status-url]
 [![Dependency status][dependency-status-image]][dependency-status-url]
+[![Greenkeeper][greenkeeper-image]][greenkeeper-url]
 [![Version][version-image]][version-url]
 
 > Tailify's very own opinionated ESLint configuration.
@@ -29,6 +30,9 @@ module.exports = {
 
 [dependency-status-image]: https://david-dm.org/tailify/eslint-config/master.svg
 [dependency-status-url]: https://david-dm.org/tailify/eslint-config
+
+[greenkeeper-image]: https://badges.greenkeeper.io/tailify/eslint-config.svg
+[greenkeeper-url]: https://greenkeeper.io
 
 [version-image]: https://img.shields.io/npm/v/@tailify/eslint-config.svg
 [version-url]: https://www.npmjs.com/package/@tailify/eslint-config
