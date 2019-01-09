@@ -1,7 +1,3 @@
 'use strict';
 
-module.exports = {
-  printWidth: 120,
-  singleQuote: true,
-  trailingComma: 'es5',
-};
+module.exports = require('@tailify/prettier-config');
