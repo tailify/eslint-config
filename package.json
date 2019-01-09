@@ -4,7 +4,7 @@
   "description": "Tailify's very own opinionated ESLint configuration",
   "main": "lib/index.js",
   "files": [
-    "lib/"
+    "lib"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -29,6 +29,8 @@
     "eslint-plugin-prettier": "3.0.1"
   },
   "devDependencies": {
+    "@tailify/eslint-config-legacy": "^1.0.0",
+    "@tailify/prettier-config": "^1.0.0",
     "eslint": "^5.9.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.0"
