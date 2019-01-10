@@ -18,7 +18,7 @@ To get started, add this to your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-  extends: '@tailify'
+  extends: ['@tailify']
 };
 ```
 
