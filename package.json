@@ -31,8 +31,8 @@
     "eslint-plugin-promise": "4.2.1"
   },
   "devDependencies": {
-    "@tailify/eslint-config-legacy": "^8.0.2",
-    "@tailify/prettier-config": "^2.0.1",
+    "@tailify/eslint-config-legacy": "^8.0.3",
+    "@tailify/prettier-config": "^2.0.2",
     "eslint": "^6.0.0",
     "jest": "^25.3.0",
     "prettier": "^2.0.1"
@@ -43,6 +43,6 @@
     "babel-eslint": "^10.1.0"
   },
   "engines": {
-    "node": ">=10.20.1"
+    "node": ">=10.16.0"
   }
 }
