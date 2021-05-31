@@ -34,7 +34,7 @@
     "@tailify/eslint-config-legacy": "^8.0.3",
     "@tailify/prettier-config": "^2.0.2",
     "eslint": "^6.0.0",
-    "jest": "^26.0.1",
+    "jest": "^27.0.3",
     "prettier": "^2.0.1"
   },
   "peerDependencies": {
